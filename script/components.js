@@ -14,7 +14,7 @@ export function layout() {
 
 function header() {
     return `
-        <header class="h-24 bg-linear-to-t from-pink-400/20 to-pink-400">
+        <header class="h-24 bg-linear-to-t from-pink-200 to-purple-400/50">
             <div class="h-full w-full backdrop-blur-sm flex justify-center items-center">
                 <div class="flex justify-center items-center opacity-0 animate-entrance">
                     <svg class="size-11 fill-pink-700 -rotate-10" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 480 480" xml:space="preserve">
