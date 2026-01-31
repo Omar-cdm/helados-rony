@@ -25,7 +25,7 @@ function header() {
                         V117.845c0-52.371,41.354-95.264,93.125-97.732c2.169,27.86,13.262,54.353,31.776,75.488c18.582,21.212,43.464,35.763,70.788,41.558
                         V323.423z"/>
                     </svg>
-                    <h1 class="text-4xl text-pink-600 font-extrabold">Helados Rony</h1>
+                    <h1 class="text-4xl text-pink-600 font-extrabold">Helados Rone</h1>
                     <svg class="size-11 fill-pink-700 rotate-10" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 480 480" xml:space="preserve">
                         <path d="M357.844,120.1l-8.592-1.222c-25.943-3.69-49.791-16.637-67.152-36.456c-17.521-20.003-27.186-45.682-27.213-72.309
                         l-0.01-9.558l-9.548-0.422C243.274,0.042,241.581,0,240,0c-64.979,0-117.844,52.865-117.844,117.845v225.579h69.056v87.788
@@ -57,7 +57,7 @@ function cardHelados(image, nombre) {
         <article class="w-34 h-40 p-2 inset-shadow-xl inset-shadow-purple-400 rounded-xl flex flex-col items-center justify-center">
             <div class="size-20 rounded-md overflow-hidden mask-b-from-10"><img src="${image}" alt="product-image" /></div>
             <h3 class="text-lg text-pink-700 font-bold mb-1">${nombre}</h3>
-            <p class="bg-green-600 text-xs text-center text-pink-200 font-semibold px-2 py-1 rounded-full">Disponible</p>
+            <p class="bg-green-600 text-xs text-center text-pink-100 font-semibold px-2 py-1 rounded-full">Disponible</p>
         </article>
     `;
 };
