@@ -5,11 +5,11 @@ export function footer() {
         <footer class="w-full p-4 pb-2 bg-champagne flex flex-col justify-center mt-8 sm:mt-20">
             <div class="flex flex-col justify-around mb-4 sm:flex-row">
                 <div class="mb-2 h-13 sm:h-17 flex flex-col sm:m-0">
-                    <h4 class="text-coral-red sm:text-xl font-bold">Ubicacion</h4>
-                    <p class="h-full text-sm sm:text-base flex items-end">Crra 18a #50-03 Los Fundadores-Soledad</p>
+                    <h4 class="text-lg text-coral-red sm:text-xl font-bold">Ubicación</h4>
+                    <p class="h-full flex items-end">Crra 18a #50-03 Los Fundadores-Soledad</p>
                 </div>
                 <div class="h-13 sm:h-17 flex flex-col">
-                    <h4 class="text-coral-red sm:text-xl font-bold mb-1">Siguenos</h4>
+                    <h4 class="text-lg text-coral-red sm:text-xl font-bold mb-1">Síguenos</h4>
                     <div class="flex gap-1 sm:gap-2">
                         ${btnFacebook()}
                         ${btnInstagram()}

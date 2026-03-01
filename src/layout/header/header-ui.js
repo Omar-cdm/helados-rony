@@ -3,9 +3,9 @@ import { navMenu } from "./components/nav-menu.js";
 
 export function header() { 
     return `
-        <header class="h-16 sm:h-20 bg-champagne  m-1 sm:m-2 rounded-xl">
+        <header class="h-16 sm:h-20 bg-champagne  m-1 sm:m-2 rounded-xl opacity-0 animate-entrance">
             <div class="h-full w-full px-2 sm:px-8 py-1 flex justify-between items-center">
-                <div class="flex justify-center items-center opacity-0 animate-entrance">
+                <div class="flex justify-center items-center">
                     ${iconIceCreamL()}
                     <h1 class="text-xl sm:text-2xl text-coral-red font-extrabold">Helados Rone</h1>
                     ${iconIceCreamR()}

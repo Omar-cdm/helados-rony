@@ -13,16 +13,16 @@
     --shadow-center-3xl: 0 0 35px rgba(0, 0, 0, 0.25); 
     
     /*Animation*/
-    --animate-entrance: entrance 2s ease-in-out forwards;
+    --animate-entrance: entrance 1s ease forwards;
 
     @keyframes entrance {
         0% {
             opacity: 0.4;
-            transform: scale(0.6) translateY(10px);
+            transform: translateY(-74px);
         }
         100% {
             opacity: 1; 
-            transform: scale(1.0) translateY(0px);
+            transform: translateY(0px);
         }
     }
     

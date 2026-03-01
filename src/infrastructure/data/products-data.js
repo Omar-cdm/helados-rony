@@ -31,7 +31,7 @@ const frutosRojos = new IcreCream(
 
 const durazno = new IcreCream(
     5,
-    '.Durazno',
+    'Durazno',
     './assets/helado-durazno.webp',
     'Disponible'
 );
