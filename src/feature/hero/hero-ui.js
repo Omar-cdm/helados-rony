@@ -8,7 +8,7 @@ export function sectionHero() {
                     <a href="https://wa.me/+573227861418?text=Hola%20Roneily,%20Brindame%20más%20información%20de%20los%20helados." class="text-center text-sm text-off-white w-28 py-1 sm:w-30 bg-blue-glacial rounded-full">Contactanos</a>
                 </div>
     
-                <div class="w-5/6 h-50 flex items-center sm:w-1/3 sm:h-70 rounded-xl shadow-xl/20 overflow-hidden"><img class="object-cover" src="/assets/image-hero.webp" alt="image ice cream"/></div>
+                <div class="w-5/6 h-50 flex items-center sm:w-1/3 sm:h-70 rounded-xl shadow-xl/20 overflow-hidden"><img class="object-cover" src="./assets/image-hero.webp" alt="image ice cream"/></div>
             </div>
         </section>
     `;
